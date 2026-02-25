@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Living Radar</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="hud">
+    <h1>Living Radar · WiFi + Bluetooth</h1>
+    <p id="mode">Mode: connecting...</p>
+    <p id="stats">Devices: 0 · Moving: 0 · Motion: 0</p>
+    <small>Dots = signal particles, bright rings = moving entities</small>
+  </div>
+  <canvas id="radar"></canvas>
+  <aside id="panel"></aside>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
